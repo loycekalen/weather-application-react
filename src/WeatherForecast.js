@@ -8,9 +8,13 @@ export default function WeatherForecast(props) {
   let [forecast, setForecast] = useState(null);
   let [value, setValue] = useState(false);
 
-  useEffect(() => {
-    setValue(false);
-  }, [props.coordinates]);
+  useEffect(
+    () => {
+      setValue(false);
+    },
+    [props.latitude],
+    [props.longitude]
+  );
 
   function handleResponse(response) {
     setForecast(response.data.daily);
