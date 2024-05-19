@@ -46,9 +46,6 @@
   margin-left: 60%;
   color: rgb(202, 7, 7);
 }
-.weather p span.emoji {
-  background: white;
-}
 .weather div span.temperature {
   font-size: 80px;
   font-weight: 600;

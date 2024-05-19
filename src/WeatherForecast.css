@@ -5,15 +5,15 @@
   opacity: 0.7;
 }
 .WeatherForecast .forecast-temperature-max {
-  font-weight: 700;
+  font-weight: 600;
 }
 .WeatherForecast .forecast-day {
-  font-weight: 700;
+  font-weight: 600;
 }
 .WeatherForecast .forecast-days {
   border: 1px solid #fcd5b6;
   border-radius: 30px;
-  margin: 8px;
+  margin: 1px;
   background: #fcd5b6;
   opacity: 0.8;
 }
