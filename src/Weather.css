@@ -6,6 +6,7 @@
   padding: 15px;
   background: linear-gradient(to bottom, #fee3bc 0%, #fda950 100%);
 }
+
 .weather form {
   margin-bottom: 20px;
 }
@@ -24,8 +25,12 @@
   background: blueviolet;
   color: white;
 }
+.weather h2 {
+  font-size: 35px;
+}
 .weather li {
   list-style: none;
+  font-size: 18px;
 }
 .weather ul {
   margin: 0;
@@ -45,12 +50,16 @@
   background: white;
 }
 .weather div span.temperature {
-  font-size: 70px;
-  font-weight: 700;
+  font-size: 80px;
+  font-weight: 600;
+  position: relative;
+  top: -15px;
 }
+
 .weather div .unit {
   position: relative;
-  top: -40px;
+  top: -60px;
+  font-size: 18px;
 }
 footer {
   font-size: 14px;
@@ -58,4 +67,19 @@ footer {
 }
 footer a {
   color: rgb(61, 5, 114);
+}
+@media (max-width: 850px) {
+  .weather div .unit {
+    position: relative;
+    top: -55px;
+  }
+  .weather div span.temperature {
+    font-size: 70px;
+  }
+  .weather .search-button {
+    padding: 8px 20px;
+  }
+  .weather p span {
+    margin-left: 50%;
+  }
 }

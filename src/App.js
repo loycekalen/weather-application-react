@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Calgary" />
-        <footer className="text-center">
+        <footer className="text-center mb-5">
           This project was coded by{" "}
           <a href="https://loycekalen.io" target="_blank" rel="noreferrer">
             Loyce Kalen
